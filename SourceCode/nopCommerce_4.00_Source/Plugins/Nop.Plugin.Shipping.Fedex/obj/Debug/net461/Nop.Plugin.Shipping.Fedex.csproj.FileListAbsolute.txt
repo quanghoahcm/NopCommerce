@@ -1,0 +1,13 @@
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\net461\Nop.Plugin.Shipping.Fedex.csprojResolveAssemblyReference.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\net461\Nop.Plugin.Shipping.Fedex.AssemblyInfo.cs
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Shipping.Fedex\plugin.json
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Shipping.Fedex\Views\Configure.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Shipping.Fedex\Views\_ViewImports.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Shipping.Fedex\logo.jpg
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.pdb
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\net461\Nop.Plugin.Shipping.Fedex.csproj.CoreCompileInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\net461\Nop.Plugin.Shipping.Fedex.AssemblyInfoInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\net461\Nop.Plugin.Shipping.Fedex.csproj.CopyComplete
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\net461\Nop.Plugin.Shipping.Fedex.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\net461\Nop.Plugin.Shipping.Fedex.pdb

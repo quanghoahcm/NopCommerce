@@ -1,0 +1,16 @@
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net461\Nop.Plugin.Pickup.PickupInStore.AssemblyInfo.cs
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\plugin.json
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\logo.png
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\Configure.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\Create.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\Edit.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\_CreateOrUpdate.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\_ViewImports.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.pdb
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net461\Nop.Plugin.Pickup.PickupInStore.csprojResolveAssemblyReference.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net461\Nop.Plugin.Pickup.PickupInStore.csproj.CoreCompileInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net461\Nop.Plugin.Pickup.PickupInStore.AssemblyInfoInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net461\Nop.Plugin.Pickup.PickupInStore.csproj.CopyComplete
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net461\Nop.Plugin.Pickup.PickupInStore.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\net461\Nop.Plugin.Pickup.PickupInStore.pdb

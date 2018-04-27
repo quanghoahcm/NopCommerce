@@ -1,0 +1,53 @@
+﻿@model ProductDetailsModel
+@using Nop.Web.Models.Catalog;
+@if ((!String.IsNullOrWhiteSpace(Model.Sku) && Model.ShowSku) || !String.IsNullOrWhiteSpace(Model.ManufacturerPartNumber) && Model.ShowManufacturerPartNumber || !String.IsNullOrWhiteSpace(Model.Gtin) && Model.ShowGtin || Model.ShowVendor)
+{
+    <div class="additional-details">
+	@*SKU*@
+@if (!String.IsNullOrWhiteSpace(Model.Sku) && Model.ShowSku)
+{
+    <div class="sku">
+        <label>@T("Products.Sku"): </label><span class="value" itemprop="sku" id="sku-@Model.Id">@Model.Sku</span>
+    </div>
+}
+@*Manufacturer part number*@
+@if (!String.IsNullOrWhiteSpace(Model.ManufacturerPartNumber) && Model.ShowManufacturerPartNumber)
+{
+    <div class="manufacturer-part-number">
+        <label>@T("Products.ManufacturerPartNumber"): </label><span class="value" id="mpn-@Model.Id">@Model.ManufacturerPartNumber</span>
+    </div>
+}
+@*GTIN*@
+@if (!String.IsNullOrWhiteSpace(Model.Gtin) && Model.ShowGtin)
+{
+    <div class="gtin">
+        <label>@T("Products.GTIN"): </label><span class="value" id="gtin-@Model.Id">@Model.Gtin</span>
+    </div>
+}
+@*Stock availability*@
+@if (!String.IsNullOrWhiteSpace(Model.StockAvailability))
+{
+    <div class="stock">
+        <label>@T("Products.Availability"): </label><span class="value">@Model.StockAvailability</span>
+    </div>
+}
+
+@*Delivery date*@
+@if (Model.FreeShippingNotificationEnabled && Model.IsFreeShipping)
+{
+    <div class="free-shipping">@T("Products.FreeShipping")</div>
+}
+@*Delivery date*@
+@if (!String.IsNullOrWhiteSpace(Model.DeliveryDate))
+{
+    <div class="delivery-date">
+        <label>@T("Products.DeliveryDate"): </label><span class="value">@Model.DeliveryDate</span>
+    </div>
+}
+@*Vendor*@
+@if (Model.ShowVendor)
+{
+    <div class="product-vendor">
+        <strong>@T("Products.Vendor"): </strong><span class="value"><a href="@Url.RouteUrl("Vendor", new { SeName = Model.VendorModel.SeName })">@Model.VendorModel.Name</a></span>
+    </div>
+}

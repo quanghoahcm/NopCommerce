@@ -1,0 +1,8 @@
+﻿@model ProductDetailsModel
+@using Nop.Web.Models.Catalog;
+@if (Model.CompareProductsEnabled)
+{
+    <div class="compare-products col-md-6">
+        <input type="button" value="@T("Products.Compare.AddToCompareList")" class="btn btn-default add-to-compare-list-button" onclick="setLocation('@Url.RouteUrl("AddProductToCompare", new { productId = Model.Id })')" />
+    </div>
+}

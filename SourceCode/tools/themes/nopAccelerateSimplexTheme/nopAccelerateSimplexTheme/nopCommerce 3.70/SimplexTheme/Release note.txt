@@ -1,0 +1,6 @@
+Release Date: December 9, 2016
+nopAccelerate Simplex Theme version: 1.0.0
+
+Release nopAccelerate Simplex Theme Initial version 1.0.0.
+
+==========================================

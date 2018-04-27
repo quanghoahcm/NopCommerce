@@ -1,0 +1,15 @@
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.Square\obj\Debug\net461\Nop.Plugin.Payments.Square.csprojResolveAssemblyReference.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.Square\obj\Debug\net461\Nop.Plugin.Payments.Square.AssemblyInfo.cs
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.Square\Content\styles.css
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.Square\plugin.json
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.Square\Views\Configure.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.Square\Views\PaymentInfo.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.Square\Views\_ViewImports.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.Square\logo.png
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.Square\Nop.Plugin.Payments.Square.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.Square\Nop.Plugin.Payments.Square.pdb
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.Square\obj\Debug\net461\Nop.Plugin.Payments.Square.csproj.CoreCompileInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.Square\obj\Debug\net461\Nop.Plugin.Payments.Square.AssemblyInfoInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.Square\obj\Debug\net461\Nop.Plugin.Payments.Square.csproj.CopyComplete
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.Square\obj\Debug\net461\Nop.Plugin.Payments.Square.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.Square\obj\Debug\net461\Nop.Plugin.Payments.Square.pdb

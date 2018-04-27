@@ -1,0 +1,7 @@
+﻿{
+  "SystemName": "NewTheme",
+  "FriendlyName": "New Theme",
+  "SupportRTL": true,
+  "PreviewImageUrl": "~/Themes/newTheme/preview.jpg",
+  "PreviewText": "The 'New Theme' site theme"
+}

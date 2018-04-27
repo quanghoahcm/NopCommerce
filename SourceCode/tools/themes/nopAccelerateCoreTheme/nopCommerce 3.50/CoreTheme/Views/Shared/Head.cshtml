@@ -1,0 +1,55 @@
+﻿@using Nop.Core;
+@using Nop.Core.Domain
+@using Nop.Core.Infrastructure;
+@using Nop.Web.Framework.UI
+@{
+    var supportRtl = EngineContext.Current.Resolve<IWorkContext>().WorkingLanguage.Rtl;
+    var supportResponsive = EngineContext.Current.Resolve<StoreInformationSettings>().ResponsiveDesignSupported;
+    //we do not support responsive for RTL yet
+    if (supportRtl)
+    {
+        supportResponsive = false;
+    }
+    //add browser specific CSS files
+    var browser = Request.Browser;
+    var isIeEightOrLess = false;
+    if (browser.Browser == "IE" && browser.MajorVersion <= 8)
+    {
+        isIeEightOrLess = true;
+    }
+    
+    //add main CSS file
+    if (supportRtl)
+    {
+        //RTL is not supported by Core Theme
+        //Html.AppendCssFileParts("~/Themes/CoreTheme/Content/styles.rtl.css");
+    }
+    else
+    {
+        //nothing to do here
+        
+    }
+     //responsive design
+    if (supportResponsive)
+    {
+        <meta name="viewport" content="width=device-width, initial-scale=1" />   
+        Html.AppendCssFileParts("~/Themes/CoreTheme/Content/css/theme-styles-responsive.css");
+        Html.AppendCssFileParts("~/Themes/CoreTheme/Content/css/theme-styles.css");
+        Html.AppendCssFileParts("~/Themes/CoreTheme/Content/css/font-awesome.min.css");
+        Html.AppendCssFileParts("~/Themes/CoreTheme/Content/css/bootstrap.min.css");   
+    }
+    else
+    {
+        Html.AppendCssFileParts("~/Themes/CoreTheme/Content/css/theme-styles.css");
+        Html.AppendCssFileParts("~/Themes/CoreTheme/Content/css/font-awesome.min.css");
+        // disabling responsive features of bootstrap 
+        // loading custom compiled bootstrap file as described here http://stackoverflow.com/questions/17935601/how-to-remove-responsive-features-in-twitter-bootstrap-3 
+        Html.AppendCssFileParts("~/Themes/CoreTheme/Content/css/bootstrap-non-responsive.css");
+        
+    }
+    if (isIeEightOrLess)
+    {
+        Html.AddScriptParts("~/Themes/CoreTheme/Content/js/selectivizr.min.js");
+        Html.AddScriptParts("~/Themes/CoreTheme/Content/js/respond.min.js");
+    }
+}

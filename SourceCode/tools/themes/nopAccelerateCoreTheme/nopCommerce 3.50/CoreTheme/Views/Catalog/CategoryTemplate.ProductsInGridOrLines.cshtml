@@ -1,0 +1,216 @@
+﻿@model CategoryModel
+@{
+    Layout = "~/Views/Shared/_ColumnsTwo.cshtml";
+    Html.AddTitleParts(!String.IsNullOrEmpty(Model.MetaTitle) ? Model.MetaTitle : Model.Name);
+    Html.AddMetaDescriptionParts(Model.MetaDescription);
+    Html.AddMetaKeywordParts(Model.MetaKeywords);
+
+    var canonicalUrlsEnabled = EngineContext.Current.Resolve<SeoSettings>().CanonicalUrlsEnabled;
+    if (canonicalUrlsEnabled)
+    {
+        var categoryUrl = Url.RouteUrl("Category", new { SeName = Model.SeName }, this.Request.Url.Scheme);
+        Html.AddCanonicalUrlParts(categoryUrl);
+    }
+
+    var breadcrumbDelimiter = EngineContext.Current.Resolve<CommonSettings>().BreadcrumbDelimiter;
+}
+@using Nop.Core.Domain.Common;
+@using Nop.Core.Domain.Seo;
+@using Nop.Core.Infrastructure;
+@using Nop.Web.Models.Catalog;
+@using Nop.Web.Extensions;
+@*category breadcrumb*@
+@if (Model.DisplayCategoryBreadcrumb)
+{
+    <div class="breadcrumb-wrapper">
+        <ul class="breadcrumb">
+            <li><a href="@Url.RouteUrl("HomePage")" title="@T("Categories.Breadcrumb.Top")">@T("Categories.Breadcrumb.Top")</a>
+                @*<span class="divider">@breadcrumbDelimiter</span> </li>*@
+            @foreach (var cat in Model.CategoryBreadcrumb)
+            {
+                var isLastCategory = cat.Id == Model.Id;
+                <li>
+                    @if (isLastCategory)
+                    {
+                        <strong class="active">@cat.Name</strong>
+                    }
+                    else
+                    {
+                        <a href="@Url.RouteUrl("Category", new { SeName = cat.SeName })" title="@cat.Name">@cat.Name</a>
+                        @*<span class="divider">@breadcrumbDelimiter</span>*@
+                    }
+                </li>
+            }
+        </ul>
+    </div>
+    @Html.Widget("categorydetails_after_breadcrumb", Model.Id)
+}
+<div class="page category-page from-panel">
+    <div class="page-title panel-heading">
+        <h1>@Model.Name</h1>
+    </div>
+    <div class="page-body panel-body">
+        @Html.Widget("categorydetails_top", Model.Id)
+        @*description*@
+        @if (!String.IsNullOrWhiteSpace(Model.Description))
+        {
+            <div class="category-description">
+                @Html.Raw(Model.Description)
+            </div>
+        }
+        @Html.Widget("categorydetails_before_subcategories", Model.Id)
+        @*subcategories*@
+        @if (Model.SubCategories.Count > 0)
+        {
+            <div class="sub-category-grid row">
+                @foreach (var item in Model.SubCategories)
+                {
+                    <div class="item-box col-xs-12 col-sm-4 col-md-4">
+                        <div class="sub-category-item thumbnail">
+                            <h3 class="title">
+                                <a href="@Url.RouteUrl("Category", new { SeName = item.SeName })" title="@item.PictureModel.Title">
+                                    @item.Name
+                                </a>
+                            </h3>
+                            <div class="picture">
+                                <a href="@Url.RouteUrl("Category", new { SeName = item.SeName })" title="@item.PictureModel.Title">
+                                    <img alt="@item.PictureModel.AlternateText" src="@item.PictureModel.ImageUrl"
+                                         title="@item.PictureModel.Title" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        @Html.Widget("categorydetails_before_featured_products", Model.Id)
+        @*featured products*@
+        @if (Model.FeaturedProducts.Count > 0)
+        {
+            <div class="featured-product-grid row">
+                <div class="title">
+                    <strong>@T("Products.FeaturedProducts")</strong>
+                </div>
+                <div class="product-grid">
+                    @foreach (var item in Model.FeaturedProducts)
+                    {
+                        <div class="item-box col-xs-12 col-sm-4 col-md-4 product-align">
+                            <div class="thumbnail">
+                                @Html.Partial("_ProductBox", item)
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+        @Html.Widget("categorydetails_after_featured_products", Model.Id)
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-selectors clearfix">
+                    @*view mode*@
+                    @if (Model.PagingFilteringContext.AllowProductViewModeChanging && Model.Products.Count > 0)
+                    {
+                        <div class="product-viewmode col-xs-12 col-sm-4 col-md-4 pull-text-center">
+                            <div class="row">
+                                <div class="col-md-4 remove_right_padding product-span">
+                                    <label>@T("Catalog.ViewMode")</label>
+                                </div>
+                                <div class="col-md-6 remove_left_padding">
+                                    @Html.DropDownList("products-viewmode",Model.PagingFilteringContext.AvailableViewModes, new { @class = "form-control dropdown-filter", onchange = "setLocation(this.value);" })
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    @*sorting*@
+                    @if (Model.PagingFilteringContext.AllowProductSorting && Model.Products.Count > 0)
+                    {
+                        <div class="product-sorting col-xs-12 col-sm-4 col-md-4 pull-text-center">
+                            <div class="row">
+                                <div class="col-md-4 remove_right_padding product-span">
+                                    <label>@T("Catalog.OrderBy")</label>
+                                </div>
+                                <div class="col-md-8 remove_left_padding">
+                                    @Html.DropDownList("products-orderby", Model.PagingFilteringContext.AvailableSortOptions, new { @class = "form-control dropdown-filter", onchange = "setLocation(this.value);" })
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    @*page size*@
+                    @if (Model.PagingFilteringContext.AllowCustomersToSelectPageSize && Model.Products.Count > 0)
+                    {
+                        <div class="product-page-size col-xs-12 col-sm-4 col-md-4 pull-text-center">
+                            <div class="row">
+                                <div class="col-md-4 product-span">
+                                    <label>@T("Catalog.PageSize")</label>
+                                </div>
+                                <div class="col-md-4 remove_left_padding remove_right_padding">
+                                    @Html.DropDownList("products-pagesize", Model.PagingFilteringContext.PageSizeOptions, new { @class = "form-control dropdown-filter", onchange = "setLocation(this.value);" })
+                                </div>
+                                <div class="col-md-4 page">
+                                    <label>@T("Catalog.PageSize.PerPage")</label>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        @Html.Widget("categorydetails_before_filters", Model.Id)
+        <div class="product-filters-wrapper">
+            @*filtering*@
+            @if (Model.PagingFilteringContext.PriceRangeFilter.Enabled)
+            {
+                <div class="well">
+                    @Html.Partial("_FilterPriceBox", Model.PagingFilteringContext.PriceRangeFilter, new ViewDataDictionary())
+                </div>
+            }
+            @*filtering*@
+            @if (Model.PagingFilteringContext.SpecificationFilter.Enabled)
+            {
+                @Html.Partial("_FilterSpecsBox", Model.PagingFilteringContext.SpecificationFilter, new ViewDataDictionary())
+            }
+        </div>
+        @Html.Widget("categorydetails_before_product_list", Model.Id)
+        @*product list*@
+        @if (Model.Products.Count > 0)
+        {
+            if (Model.PagingFilteringContext.ViewMode == "list")
+            {
+                @*list mode*@
+                <div class="product-list">
+                    <div class="row">
+                        @foreach (var product in Model.Products)
+                        {
+                            <div class="item-box col-md-12 product-list-box">
+                                <div class="thumbnail">
+                                    @Html.Partial("_ProductBox", product)
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+            else
+            {
+                @*grid mode*@
+                <div class="product-grid clearfix">
+                    <div class="row">
+                        @foreach (var product in Model.Products)
+                        {
+                            <div class="item-box col-xs-12 col-sm-4 col-md-4 product-align">
+                                <div class="thumbnail">
+                                    @Html.Partial("_ProductBox", product)
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        }
+        <div class="pager clearfix">
+            @Html.Pager(Model.PagingFilteringContext).QueryParam("pagenumber")
+        </div>
+        @Html.Widget("categorydetails_bottom", Model.Id)
+    </div>
+</div>
+   

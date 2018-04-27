@@ -1,0 +1,6 @@
+26/4: Everyone demo an ecommerce website using framework .Net Core NopCommerce 
+3/5: Training about theme structure in NopCommerce. 
+10/5: Every Team will create a theme as requirement. 
+17/5: Setup multi languages in NopCommerce. 
+24/5: Setup Online Payment in NopCommerce. 
+31/5: Training about Schedule tasks in NopCommerce.

@@ -1,0 +1,76 @@
+﻿@model ProductDetailsModel.AddToCartModel
+@using Nop.Web.Models.Catalog;
+@using Nop.Core.Domain.Orders;
+<div class="add-to-cart">
+    @if (Model.CustomerEntersPrice)
+    {
+        <div class="customer-entered-price clearfix">
+            <div class="price-input">
+                @Html.LabelFor(model => model.CustomerEnteredPrice, new { @class = "enter-price-label" }, ":")
+                @*round price*@
+                @Html.TextBox("CustomerEnteredPrice", Convert.ToInt32(Math.Ceiling(Model.CustomerEnteredPrice)), new { @class = "enter-price-input form-control" })
+            </div>
+            <div class="price-range alert alert-info">
+                @Model.CustomerEnteredPriceRange
+            </div>
+        </div>
+    }
+    @if (!Model.DisableBuyButton || !Model.DisableWishlistButton)
+    {
+        <div class="add-to-cart-panel">
+            <div class="form-group row">
+                    <div class="col-xs-12 col-sm-3 col-md-4 quan">
+                        @Html.LabelFor(model => model.EnteredQuantity, new { @class = "qty-label" }, ":")
+
+
+                        @if (Model.AllowedQuantities.Count > 0)
+                        {
+                            <div>
+                                @Html.DropDownListFor(model => model.EnteredQuantity, Model.AllowedQuantities, new { @class = "qty- dropdown form-control" })
+                            </div>
+                        }
+                        else
+                        {
+                            <div>
+                                @Html.TextBoxFor(model => model.EnteredQuantity, new { @class = "qty-input form-control" })
+                            </div>
+                        }
+                    </div>
+                    @if (!Model.DisableBuyButton)
+                    {
+                        var addToCartText = "";
+                        if (Model.UpdatedShoppingCartItemId > 0)
+                        {
+                            addToCartText = T("ShoppingCart.AddToCart.Update").Text;
+                        }
+                        else
+                        {
+                            addToCartText = T("ShoppingCart.AddToCart").Text;
+                            if (Model.IsRental)
+                            {
+                                addToCartText = T("ShoppingCart.Rent").Text;
+                            }
+                            if (Model.AvailableForPreOrder)
+                            {
+                                addToCartText = T("ShoppingCart.PreOrder").Text;
+                            }
+                        }
+                        <div class="col-xs-12 col-sm-4 col-md-4 ">
+                            <input type="button" class=" btn btn-primary add-to-cart-button" value="@(Model.AvailableForPreOrder ? T("ShoppingCart.PreOrder") : T("ShoppingCart.AddToCart"))" data-productid="@Model.ProductId" onclick="AjaxCart.addproducttocart_details('@Url.RouteUrl("AddProductToCart-Details", new { productId = Model.ProductId, shoppingCartTypeId = (int)ShoppingCartType.ShoppingCart })', '#product-details-form');return false;" />
+                        </div>
+                    }
+                </div>
+            @if (!Model.DisableWishlistButton)
+            {
+                <div class="form-group row">
+                    <div class="col-md-12">
+                    <input type="button" class="btn btn-default add-to-wishlist-button" value="@T("ShoppingCart.AddToWishlist")" data-productid="@Model.ProductId" onclick="AjaxCart.addproducttocart_details('@Url.RouteUrl("AddProductToCart-Details", new 
+{ productId = Model.ProductId, shoppingCartTypeId = (int)ShoppingCartType.Wishlist })', '#product-details-form');return false;" />
+                        </div>
+                </div>
+            }
+        
+    </div>
+    }
+    @Html.Widget("productdetails_add_info", Model.ProductId)
+</div>

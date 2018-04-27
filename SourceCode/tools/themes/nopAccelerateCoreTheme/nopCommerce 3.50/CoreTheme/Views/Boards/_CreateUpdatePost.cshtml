@@ -1,0 +1,71 @@
+﻿@model EditForumPostModel
+@using Nop.Core.Domain.Forums;
+@using Nop.Web.Extensions;
+@using Nop.Web.Models.Boards;
+@Html.Action("ForumBreadcrumb", new { forumTopicId = Model.ForumTopicId })
+<div class="page forum-edit-page from-panel">
+    <div class="page-title panel-heading">
+        @if (Model.IsEdit)
+        {
+            <h1>@T("Forum.EditPost")</h1>
+        }
+        else
+        {
+            <h1>@T("Forum.NewPost")</h1>
+        }
+    </div>
+    <div class="page-body panel-body">
+
+        @using (Html.BeginForm())
+        {
+            <div class="message-error">
+                @Html.ValidationSummary(true)
+            </div>
+            @Html.HiddenFor(model => model.Id)
+            @Html.HiddenFor(model => model.ForumTopicId)
+
+            <div class="form-fields">
+            <fieldset>
+                <legend>@T("Forum.ForumName"): <strong>@Model.ForumName</strong></legend>
+                <div class="form-group">
+                    <label class="control-label topic-title-text col-md-2 ">@T("Forum.TopicTitle"):</label> <span class="col-md-5">@Model.ForumTopicSubject</span>
+                </div>
+
+                <div class="form-group row">
+                    <div class=" col-md-6">
+                        @if (Model.ForumEditor == EditorType.BBCodeEditor)
+                        {
+                            @Html.BBCodeEditor("Text");
+                        }
+                        @Html.TextAreaFor(model => model.Text, new { @class = "forum-post-text form-control", TextMode = "MultiLine" })
+                        @Html.ValidationMessageFor(model => model.Text)    
+                    </div>
+                </div>
+
+                @if (Model.IsCustomerAllowedToSubscribe)
+                {
+                    <div class="form-group">
+                        <label class="control-label col-md-2 topic-title-text option-checkbox">@T("Forum.Options"):</label>
+                        <div class="col-md-6">
+                            <label class="checkbox options-checkbox">
+                                @Html.EditorFor(model => model.Subscribed)
+                                <span>@T("Forum.NotifyWhenSomeonePostsInThisTopic")</span>
+                            </label>
+                        </div>
+                    </div>
+                }
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10 submit-option">
+                         <input type="submit" value="@T("Forum.Submit")" class="btn btn-primary submit-post-button" />
+                         <input type="button" class="btn btn-default cancel-post-button" value="@T("Forum.Cancel")" onclick="setLocation('@Url.RouteUrl("TopicSlug", new { id = Model.ForumTopicId, slug = Model.ForumTopicSeName })    ')" />
+                   </div>
+                </div>
+                
+            </fieldset>
+
+          </div>
+           
+        }
+    </div>
+</div>

@@ -1,0 +1,14 @@
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\net461\Nop.Plugin.Payments.PayPalDirect.AssemblyInfo.cs
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\net461\Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\plugin.json
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\Configure.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentInfo.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\_ViewImports.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\net461\Nop.Plugin.Payments.PayPalDirect.csproj.CoreCompileInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\net461\Nop.Plugin.Payments.PayPalDirect.AssemblyInfoInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\net461\Nop.Plugin.Payments.PayPalDirect.csproj.CopyComplete
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\net461\Nop.Plugin.Payments.PayPalDirect.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\net461\Nop.Plugin.Payments.PayPalDirect.pdb
