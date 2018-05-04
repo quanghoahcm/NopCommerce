@@ -1,5 +1,5 @@
 {
   "DataProvider": "sqlserver",
-  "DataConnectionString": "Data Source=lquanghoa;Initial Catalog=db_nop1;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=25012018x@X1",
+  "DataConnectionString": "Data Source=lquanghoa;Initial Catalog=db_nop_public;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=25012018x@X1",
   "RawDataSettings": {}
 }

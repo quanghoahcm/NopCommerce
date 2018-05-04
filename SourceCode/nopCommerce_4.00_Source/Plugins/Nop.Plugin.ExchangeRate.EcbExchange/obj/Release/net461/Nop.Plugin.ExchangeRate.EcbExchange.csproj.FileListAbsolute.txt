@@ -1,0 +1,11 @@
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\plugin.json
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\logo.jpg
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\Nop.Plugin.ExchangeRate.EcbExchange.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\Nop.Plugin.ExchangeRate.EcbExchange.pdb
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Release\net461\Nop.Plugin.ExchangeRate.EcbExchange.csprojResolveAssemblyReference.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Release\net461\Nop.Plugin.ExchangeRate.EcbExchange.csproj.CoreCompileInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Release\net461\Nop.Plugin.ExchangeRate.EcbExchange.AssemblyInfoInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Release\net461\Nop.Plugin.ExchangeRate.EcbExchange.AssemblyInfo.cs
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Release\net461\Nop.Plugin.ExchangeRate.EcbExchange.csproj.CopyComplete
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Release\net461\Nop.Plugin.ExchangeRate.EcbExchange.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Release\net461\Nop.Plugin.ExchangeRate.EcbExchange.pdb
