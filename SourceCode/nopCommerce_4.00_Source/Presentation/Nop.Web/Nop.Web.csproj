@@ -55,6 +55,10 @@
 
   <ItemGroup>
     <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="Themes\PowerShop\Views\Home\Components\HomepageBestSellers\" />
+    <Folder Include="Themes\PowerShop\Views\Home\Components\HomepageCategories\" />
+    <Folder Include="Themes\PowerShop\Views\Home\Components\HomePagePolls\" />
+    <Folder Include="Themes\PowerShop\Views\Home\Components\HomepageProducts\" />
   </ItemGroup>
 
   <!-- This target execute after "Build" target.

@@ -1724,8 +1724,13 @@ header {
 
 
 /*********** FOOTER ***********/
-
+.newsletter-block {
+  
+    text-align: center;
+}
 .footer {
+    background-color: #f6f6f6;
+    box-shadow: 0 7px 7px 0 rgba(0,0,0,.06) inset;
     text-align: center;
 }
 
@@ -1738,7 +1743,7 @@ header {
     }
 
 .footer-upper-wrapper {
-    background-color: rgba(0,0,0,0.7);
+    /*background-color: rgb(238, 238, 238);*/
 }
 
 .footer-upper {
@@ -1754,6 +1759,14 @@ header {
     font-size: 14px;
     text-align: left;
     margin: 1px auto;
+    /*float: left;
+    width: 26%;
+    margin: 0 0 15px;
+    border: none;
+    padding: 0 20px;
+    text-align: left;*/
+    padding: 0 10px;
+    color: #666;
 }
 
     .footer-block .title {
@@ -1766,8 +1779,7 @@ header {
     }
 
         .footer-block .title strong {
-            color: #fff;
-            font-weight: 300;
+        
             text-transform: uppercase;
         }
 
@@ -1778,20 +1790,30 @@ header {
     }
 
         .footer-block .list a {
-            color: #fff;
-            opacity: 0.8;
+            color: #666;
             display: block;
             line-height: 20px;
             padding: 10px 15px;
         }
 
             .footer-block .list a:hover {
-                opacity: 1;
-                color: #fff;
+                opacity: 0.7;
+                color: #de524e;
             }
-
+    .footer-block .title + *:before {
+        content: "";
+        display: block;
+        width: 30px;
+        margin-top: 15px;
+        height: 3px;
+        background-color: #de524e;
+    }
+    .footer-block .list li:first-child {
+        padding: 20px 0 10px;
+    }
 .follow-us {
     text-align: center;
+    border-left: 2px solid #ddd;
     margin: 30px auto 0;
 }
 
@@ -1805,8 +1827,7 @@ header {
     .follow-us .social ul {
         font-size: 0;
         margin: 0 0 30px;
-        padding: 0 0 30px;
-        border-bottom: 1px solid #ddd;
+        padding: 14px 15px 30px;
     }
 
     .follow-us .social li {
@@ -1854,10 +1875,10 @@ header {
 
     .newsletter-email input[type="email"] {
         float: left;
-        width: 180px;
-        height: 36px;
+        width: 220px;
+        height: 40px;
         margin: 0 auto;
-        border-radius: 20px 0 0 20px;
+        border-radius: 3px 0 0 3px;
     }
 
 .newsletter-subscribe-button {
@@ -1869,7 +1890,7 @@ header {
     text-align: center;
     background-color: #de524e;
     text-transform: uppercase;
-    border-radius: 0 20px 20px 0 !important;
+    border-radius: 0 0px 0px 0 !important;
 }
 
     .newsletter-subscribe-button:hover {
@@ -7324,10 +7345,12 @@ div a.nav-overlay {
     }
 
         .footer-block .title {
-            padding: 0;
-            color: #666;
-            cursor: auto;
-            margin: 0 0 15px;
+            padding:0;
+            font-size: 18px;
+            color: #444;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
             background: none;
         }
 
@@ -7353,9 +7376,7 @@ div a.nav-overlay {
 
 
     /*** CATEGORY ***/
-
-
-    .product-selectors {
+            .product-selectors {
         text-align: left;
     }
 
@@ -8191,6 +8212,7 @@ div a.nav-overlay {
 
     .newsletter-email {
         display: block;
+        margin-top: 15px;
     }
 
         .newsletter-email input[type="text"] {
@@ -8198,8 +8220,22 @@ div a.nav-overlay {
         }
 
         .newsletter-email .newsletter-subscribe-button {
-            width: 100px;
-            padding: 0 5px;
+            /*width: 100px;
+            padding: 0 5px;*/
+            display: block;
+            width: 220px;
+            height: 40px;
+            margin: auto;
+            border: none;
+            background: #de524e url(http://themes.brooklyn2.nop-templates.com/Themes/Brooklyn/Content/img/subscribe-button.png) left center no-repeat;
+            padding-left: 36px;
+            text-align: left;
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            -webkit-transition: all .2s ease;
+            transition: all .2s ease;
         }
 
     .newsletter-validation .field-validation-valid {
