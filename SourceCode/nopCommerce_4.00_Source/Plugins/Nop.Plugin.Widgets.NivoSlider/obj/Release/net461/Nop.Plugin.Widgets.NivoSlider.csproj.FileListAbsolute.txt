@@ -32,7 +32,6 @@ D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.jpg
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
-D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Release\net461\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Release\net461\Nop.Plugin.Widgets.NivoSlider.csproj.CoreCompileInputs.cache
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Release\net461\Nop.Plugin.Widgets.NivoSlider.AssemblyInfoInputs.cache
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Release\net461\Nop.Plugin.Widgets.NivoSlider.AssemblyInfo.cs

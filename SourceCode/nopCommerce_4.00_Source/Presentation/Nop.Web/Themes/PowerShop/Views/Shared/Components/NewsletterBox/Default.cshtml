@@ -1,8 +1,8 @@
 ﻿@model NewsletterBoxModel
 <div class="newsletter">
-    <div class="title">
+    @*<div class="title">
         <strong>@T("Newsletter.Title")</strong>
-    </div>
+    </div>*@
     <div class="newsletter-subscribe" id="newsletter-subscribe-block">
         <div class="newsletter-email">
             <input asp-for="NewsletterEmail" id="newsletter-email" class="newsletter-subscribe-text" placeholder=@T("Newsletter.Email.Placeholder")/>

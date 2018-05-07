@@ -18,6 +18,7 @@
             <div class="container">
                 @await Component.InvokeAsync("Widget", new { widgetZone = "home_page_before_categories" })
                 @await Component.InvokeAsync("HomepageCategories")
+                           
             </div>
         </section>
 
@@ -45,7 +46,7 @@
         <section>
             <div class="container">
                 @await Component.InvokeAsync("Widget", new { widgetZone = "home_page_before_poll" })
-                @await Component.InvokeAsync("HomepagePolls")
+                @*@await Component.InvokeAsync("HomepagePolls")*@
             </div>
         </section>
         @await Component.InvokeAsync("Widget", new { widgetZone = "home_page_bottom" })
