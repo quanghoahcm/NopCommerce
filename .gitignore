@@ -1,34 +1,47 @@
+/Libraries
+/bin
+/.vs
 
-SourceCode/nopCommerce_4.00_Source/Libraries/Nop.Core/bin
-SourceCode/nopCommerce_4.00_Source/.vs
-SourceCode/nopCommerce_4.00_Source/.vs/NopCommerce/v15/.suo
-SourceCode/nopCommerce_4.00_Source/.vs/NopCommerce/v15/Server/sqlite3/storage.ide
-SourceCode/nopCommerce_4.00_Source/Plugins/Nop.Plugin.Payments.Manual/obj/Release/net461/Nop.Plugin.Payments.Manual.csprojResolveAssemblyReference.cache
-SourceCode/nopCommerce_4.00_Source/Plugins/Nop.Plugin.Payments.Worldpay/obj/Release/net461/Nop.Plugin.Payments.Worldpay.csprojResolveAssemblyReference.cache
-SourceCode/nopCommerce_4.00_Source/Plugins/Nop.Plugin.Shipping.FixedOrByWeight/obj/Release/net461/Nop.Plugin.Shipping.FixedOrByWeight.csprojResolveAssemblyReference.cache
-SourceCode/nopCommerce_4.00_Source/Tests
-SourceCode/nopCommerce_4.00_Source/Plugins/Nop.Plugin.Shipping.UPS/obj/Release/net461/Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache
-SourceCode/nopCommerce_4.00_Source/.vs/NopCommerce/v15/.suo
-SourceCode/nopCommerce_4.00_Source/.vs/NopCommerce/v15/.suo
-SourceCode/nopCommerce_4.00_Source/.vs/NopCommerce/v15/Server/sqlite3/storage.ide
-SourceCode/nopCommerce_4.00_Source/.vs/NopCommerce/v15/Server/sqlite3/storage.ide
-SourceCode/nopCommerce_4.00_Source/Libraries/Nop.Core/obj/Release/net461/Nop.Core.csproj.FileListAbsolute.txt
+/Tests
+/Nop.Plugin.Shipping.UPS
+/v15
+
+/sqlite3
+/net461
 *.cache
 *.sln
-SourceCode/nopCommerce_4.00_Source/Plugins/Nop.Plugin.DiscountRules.CustomerRoles/obj/Release/net461/Nop.Plugin.DiscountRules.CustomerRoles.csproj.FileListAbsolute.txt
 *.zip
 *.sln
 *.cache
 /database
 /Documents
+<<<<<<< HEAD
 
 /tools
 
 /build
 
+=======
 
+/tools
+
+/build
+>>>>>>> b97ef43bc1bd44046dc91fee83ace64f120caad6
+
+/Tests
+
+<<<<<<< HEAD
+/packages
+
+/Libraries
+=======
 /Tests
 
 /packages
 
 /Libraries
+*.cache
+/App_Data
+/.suo
+SourceCode/nopCommerce_4.00_Source/.vs/NopCommerce/v15/Server/sqlite3/db.lock
+>>>>>>> b97ef43bc1bd44046dc91fee83ace64f120caad6
