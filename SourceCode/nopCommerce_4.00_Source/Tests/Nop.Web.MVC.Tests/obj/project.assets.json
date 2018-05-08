@@ -5457,7 +5457,7 @@
       ]
     },
     "System.Diagnostics.StackTrace/4.3.0": {
-      "sha512": "EpV1K5RQTyu0uhQ3Rd6hQBWrcvQj8K9D9JSPfUbnu4EGnjU42xc4IKkMi4jwj2inUHiRYqMBzcwm6lF03cEUug==",
+      "sha512": "BiHg0vgtd35/DM9jvtaC1eKRpWZxr0gcQd643ABG7GnvSlf5pOkY2uyd42mMOJoOmKvnpNj0F4tuoS1pacTwYw==",
       "type": "package",
       "path": "system.diagnostics.stacktrace/4.3.0",
       "files": [
@@ -5550,7 +5550,7 @@
       ]
     },
     "System.Dynamic.Runtime/4.3.0": {
-      "sha512": "4CnWyo1yFNCAQ6sf/7+/vbHc7/L0kUVCIyWMb/rKsuHRmLwJqqHZVn2Ez8Hejrx52WqhoU4Rs93g97nLcjwRvw==",
+      "sha512": "SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
       "type": "package",
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
@@ -7302,7 +7302,7 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.3.0": {
-      "sha512": "biwKOeq9+//usQ31tcDuwYzYzCqgOFXAUn8MzP0xJ9Dou8NmOwL5kNmYdUQ5eN4GDHCsUsKS6YJKZgdbnxDgxA==",
+      "sha512": "IRiEFUa5b/Gs5Egg8oqBVoywhtOeaO2KOx3j0RfcYY/raxqBuEK7NXRDgOwtYM8qbi+7S4RPXUbNt+ZxyY0/NQ==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.3.0",
       "files": [
@@ -7578,7 +7578,7 @@
       ]
     },
     "System.Threading.Tasks.Parallel/4.3.0": {
-      "sha512": "/p1awN/yZejitv32JtzH3UdIN5GMPSoVul/EaErfVlMCmXdHH0N4BSUthJ3Tbpb81J3jONzz1l12TyA/ZedWUA==",
+      "sha512": "cbjBNZHf/vQCfcdhzx7knsiygoCKgxL8mZOeocXZn5gWhCdzHIq6bYNKWX0LAJCWYP7bds4yBK8p06YkP0oa0g==",
       "type": "package",
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
@@ -7633,7 +7633,7 @@
       ]
     },
     "System.Threading.Thread/4.3.0": {
-      "sha512": "hrTaDQEm1OreUcBr+CMqmTC27u3Ny2+gHOtV/uNTNpSRUSsBJZOFJ62wlow+HjQBLemR6s7Z+sPwEWQ7HglwtA==",
+      "sha512": "OHmbT+Zz065NKII/ZHcH9XO1dEuLGI1L2k7uYss+9C1jLxTC9kTZZuzUOyXHayRk+dft9CiDf3I/QZ0t8JKyBQ==",
       "type": "package",
       "path": "system.threading.thread/4.3.0",
       "files": [
@@ -7824,7 +7824,7 @@
       ]
     },
     "System.Xml.XmlDocument/4.3.0": {
-      "sha512": "cx9q7vdjsCoabEbJ20DTBwi97tEsMg2JHNzM3t5mkskYq3ra4HyYQPhP1Uy2+LvVMTGJU3K0Qc2bAXyJMOd97A==",
+      "sha512": "lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "type": "package",
       "path": "system.xml.xmldocument/4.3.0",
       "files": [
@@ -8063,25 +8063,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lquanghoa\\.nuget\\packages\\": {},
+    "C:\\Users\\ntanvu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "4.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "D:\\TMA\\Projects\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
+      "projectUniqueName": "D:\\LEARNING\\NET CORE\\NopEX\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
       "projectName": "Nop.Web.MVC.Tests",
-      "projectPath": "D:\\TMA\\Projects\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
-      "packagesPath": "C:\\Users\\lquanghoa\\.nuget\\packages\\",
-      "outputPath": "D:\\TMA\\Projects\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Tests\\Nop.Web.MVC.Tests\\obj\\",
+      "projectPath": "D:\\LEARNING\\NET CORE\\NopEX\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
+      "packagesPath": "C:\\Users\\ntanvu\\.nuget\\packages\\",
+      "outputPath": "D:\\LEARNING\\NET CORE\\NopEX\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Tests\\Nop.Web.MVC.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\lquanghoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ntanvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -8090,16 +8093,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/cefsharp/": {}
       },
       "frameworks": {
         "net461": {
           "projectReferences": {
-            "D:\\TMA\\Projects\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Presentation\\Nop.Web\\Nop.Web.csproj": {
-              "projectPath": "D:\\TMA\\Projects\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Presentation\\Nop.Web\\Nop.Web.csproj"
+            "D:\\LEARNING\\NET CORE\\NopEX\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
+              "projectPath": "D:\\LEARNING\\NET CORE\\NopEX\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Tests\\Nop.Tests\\Nop.Tests.csproj"
             },
-            "D:\\TMA\\Projects\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
-              "projectPath": "D:\\TMA\\Projects\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Tests\\Nop.Tests\\Nop.Tests.csproj"
+            "D:\\LEARNING\\NET CORE\\NopEX\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+              "projectPath": "D:\\LEARNING\\NET CORE\\NopEX\\NopCommerce\\SourceCode\\nopCommerce_4.00_Source\\Presentation\\Nop.Web\\Nop.Web.csproj"
             }
           }
         }
