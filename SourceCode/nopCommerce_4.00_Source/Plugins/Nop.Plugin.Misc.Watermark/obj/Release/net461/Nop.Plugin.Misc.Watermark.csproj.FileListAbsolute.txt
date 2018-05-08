@@ -1,0 +1,3 @@
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Misc.Watermark\obj\Release\net461\Nop.Plugin.Misc.Watermark.csproj.CoreCompileInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Misc.Watermark\obj\Release\net461\Nop.Plugin.Misc.Watermark.AssemblyInfoInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Misc.Watermark\obj\Release\net461\Nop.Plugin.Misc.Watermark.AssemblyInfo.cs

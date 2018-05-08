@@ -2589,7 +2589,7 @@ header {
 
     .home-page-category-grid .title,
     .sub-category-grid .title {
-        left: 0;
+        /*left: 0;
         bottom: 0;
         z-index: 1;
         color: #fff;
@@ -2605,11 +2605,43 @@ header {
         text-transform: uppercase;
         transition: all 0.3s ease;
         background: rgba(236,133,42,0.7);
+        -webkit-transition: all 0.3s ease;*/
+        left: 0;
+        bottom: 0;
+        font-weight: bold !important;
+        z-index: 1;
+        color: #000;
+        opacity: 0.6;
+        width: 100%;
+        font-size: 22px;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 2px;
+        position: absolute;
+        text-align: center;
+        padding: 15px 10px;
+        font-weight: normal;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+        background: rgba(255,255,255,.8);
         -webkit-transition: all 0.3s ease;
     }
+    .product-grid .title, .home-page-category-grid > .title {
+        margin: 0 0 30px;
+        text-align: center;
+        font-size: 22px;
+        color: #444;
+        letter-spacing: 3.3px;
+        text-transform: uppercase;
+    }
+    .category-item {
+        position: relative;
+    }
 
-.category-item {
-    position: relative;
+
+.home-page-category-grid .item-grid .item-box:hover .category-item h2 {
+    margin-bottom: 70px;
 }
 
 .home-page-category-grid .title a,

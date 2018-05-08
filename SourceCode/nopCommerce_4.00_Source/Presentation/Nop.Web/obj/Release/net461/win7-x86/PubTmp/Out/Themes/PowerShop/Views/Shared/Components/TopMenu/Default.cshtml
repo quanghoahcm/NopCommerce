@@ -16,6 +16,9 @@
         };
         @await Html.PartialAsync("_CategoryLine.TopMenu", categoryLineModel)
     }
+        @*<li>
+              @await Component.InvokeAsync("ManufacturerNavigation")
+        </li>*@
     @foreach (var topic in Model.Topics)
     {
         <li><a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a></li>

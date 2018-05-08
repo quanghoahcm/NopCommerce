@@ -2442,13 +2442,19 @@ header {
 }
 
 .item-box .product-title {
-    color: #de524e;
-    font-size: 17px;
+    color: #888;
+    text-transform:uppercase;
+    font-size: 18px;
     line-height: 1.2;
     margin: 0 0 10px;
     overflow: hidden;
+    margin: 0 0 5px;
+    height:40px;
     font-weight: normal;
 }
+    .item-box .product-title:hover {
+        color: #da6e6b;
+    }
 
     .item-box .product-title a {
         display: block;
@@ -2477,8 +2483,11 @@ header {
 
     .item-box .rating div {
         height: 14px;
+        /*background: #cc8a97 url('../images/rating2.png') no-repeat;*/
         background: url('../images/rating2.png') repeat-x;
     }
+
+
 
 .item-box .description {
     display: none;
@@ -2589,7 +2598,7 @@ header {
 
     .home-page-category-grid .title,
     .sub-category-grid .title {
-        left: 0;
+        /*left: 0;
         bottom: 0;
         z-index: 1;
         color: #fff;
@@ -2605,11 +2614,45 @@ header {
         text-transform: uppercase;
         transition: all 0.3s ease;
         background: rgba(236,133,42,0.7);
+        -webkit-transition: all 0.3s ease;*/
+        left: 0;
+        bottom: 0;
+        font-weight: bold !important;
+        z-index: 1;
+        color: #000;
+        opacity: 0.6;
+        width: 100%;
+        font-size: 22px;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 2px;
+        position: absolute;
+        text-align: center;
+        padding: 15px 10px;
+        font-weight: normal;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+        background: rgba(255,255,255,.8);
         -webkit-transition: all 0.3s ease;
     }
+    .product-grid .title, .home-page-category-grid > .title {
+        margin: 0 0 30px;
+        text-align: center;
+        font-size: 22px;
+        color: #444;
+        letter-spacing: 3.3px;
+        text-transform: uppercase;
+    }
+    .category-item {
+        position: relative;
+    }
 
-.category-item {
-    position: relative;
+.product-grid .item-box:hover, .manufacturer-grid .item-box:hover, .vendor-grid .item-box:hover {
+    box-shadow: 0 1px 8px 2px rgba(0,0,0,.12)
+}
+.home-page-category-grid .item-grid .item-box:hover .category-item h2 {
+    margin-bottom: 70px;
 }
 
 .home-page-category-grid .title a,

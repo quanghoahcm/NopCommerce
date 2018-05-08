@@ -4,6 +4,7 @@ D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\logo.jpg
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Release\net461\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Release\net461\Nop.Plugin.DiscountRules.CustomerRoles.csproj.CoreCompileInputs.cache
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Release\net461\Nop.Plugin.DiscountRules.CustomerRoles.AssemblyInfoInputs.cache
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Release\net461\Nop.Plugin.DiscountRules.CustomerRoles.AssemblyInfo.cs
