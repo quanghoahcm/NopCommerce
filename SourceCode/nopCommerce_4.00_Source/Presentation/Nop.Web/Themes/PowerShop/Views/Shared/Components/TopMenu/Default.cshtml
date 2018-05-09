@@ -16,7 +16,7 @@
         };
         @await Html.PartialAsync("_CategoryLine.TopMenu", categoryLineModel)
     }
-        @*<li>
+    @*<li>
               @await Component.InvokeAsync("ManufacturerNavigation")
         </li>*@
     @foreach (var topic in Model.Topics)
@@ -47,6 +47,11 @@
     {
         <li><a href="@Url.RouteUrl("ContactUs")">@T("ContactUs")</a></li>
     }
+    <li class="header-list-links">
+        <div class="header-links-wrapper">
+            @await Component.InvokeAsync("HeaderLinks")
+        </div>
+    </li>
     @await Component.InvokeAsync("Widget", new { widgetZone = "header_menu_after" })
 </ul>
 @{
@@ -97,12 +102,7 @@
         {
             <li><a href="@Url.RouteUrl("ContactUs")">@T("ContactUs")</a></li>
         }
-            <li>
-                <div class="header-links-wrapper">
-                    @await Component.InvokeAsync("HeaderLinks")
-                </div>
-            
-            </li>
+
         @await Component.InvokeAsync("Widget", new { widgetZone = "mob_header_menu_after" })
     </ul>
     <script type="text/javascript" asp-location="Footer">
