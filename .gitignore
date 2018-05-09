@@ -45,3 +45,9 @@
 /.suo
 SourceCode/nopCommerce_4.00_Source/.vs/NopCommerce/v15/Server/sqlite3/db.lock
 >>>>>>> b97ef43bc1bd44046dc91fee83ace64f120caad6
+*.cache
+*.props
+SourceCode/nopCommerce_4.00_Source/Plugins/Nop.Plugin.Pickup.PickupInStore/obj/project.assets.json
+*.props
+*.targets
+SourceCode/nopCommerce_4.00_Source/.vs/config/applicationhost.config
