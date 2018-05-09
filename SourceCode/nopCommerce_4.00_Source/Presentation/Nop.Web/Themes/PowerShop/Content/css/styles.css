@@ -1578,12 +1578,12 @@ header {
     }
 
 .account-icon {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     transition: 0.3s;
-    border-radius: 100%;
+    border-radius: 0;
     vertical-align: middle;
-    background: #de524e url(../images/icon-account.png) no-repeat center;
+    background: #cc8a97 url(../images/icon-account.png) no-repeat center;
 }
 
     .account-icon:hover {
@@ -1591,18 +1591,27 @@ header {
     }
 
 #topcartlink a .cart-icon {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     transition: 0.3s;
-    border-radius: 100%;
+    border-radius: 0;
     vertical-align: middle;
-    background: #de524e url('../images/shopping-bag.png') no-repeat center;
+    background: #444 url('../images/shopping-bag.png') no-repeat center;
 }
 
     #topcartlink a .cart-icon:hover {
         background: #da6e6b url('../images/shopping-bag.png') no-repeat center;
     }
-
+.header-list-links {
+    padding: 0 !important;
+    padding-left: 50px !important;
+}
+#topcartlink a .cart-qty {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 22px;
+}
 .header-lower {
     z-index: 0;
     position: relative;
@@ -8095,7 +8104,7 @@ div a.nav-overlay {
     }
 
     .header-links li {
-        margin: 0 20px 0 0px;
+        margin: 0 0px 0 0px;
     }
 
     .header-links a,
@@ -8153,7 +8162,7 @@ div a.nav-overlay {
             padding: 0 15px;
             display: inline-block;
             vertical-align: middle;
-            border-left: 1px solid #ddd;
+            border-left: 0px solid #ddd;
         }
 
             .header-menu > ul > li:first-child {
@@ -8163,7 +8172,8 @@ div a.nav-overlay {
             .header-menu > ul > li > a {
                 color: #fff;
                 display: block;
-                font-size: 15px;
+                font-size: 20px;
+                font-weight: 600;
                 cursor: pointer;
                 padding: 5px 10px;
                 line-height: 20px;
