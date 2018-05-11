@@ -2682,11 +2682,11 @@ header {
 
 .product-grid,
 .product-list {
-    margin: 0 0 50px;
+    margin: 0 0 5px;
 }
 
 .home-page-product-grid {
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 .product-grid .title {

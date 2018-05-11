@@ -31,29 +31,29 @@ namespace Nop.Plugin.Widgets.QuickView.Components
 
         public IViewComponentResult Invoke(string widgetZone, object additionalData)
         {
-            var nivoSliderSettings = _settingService.LoadSetting<QuickViewSettings>(_storeContext.CurrentStore.Id);
+            var quickViewSettings = _settingService.LoadSetting<QuickViewSettings>(_storeContext.CurrentStore.Id);
 
             var model = new PublicInfoModel
             {
-                Picture1Url = GetPictureUrl(nivoSliderSettings.Picture1Id),
-                Text1 = nivoSliderSettings.Text1,
-                Link1 = nivoSliderSettings.Link1,
+                Picture1Url = GetPictureUrl(quickViewSettings.Picture1Id),
+                Text1 = quickViewSettings.Text1,
+                Link1 = quickViewSettings.Link1,
 
-                Picture2Url = GetPictureUrl(nivoSliderSettings.Picture2Id),
-                Text2 = nivoSliderSettings.Text2,
-                Link2 = nivoSliderSettings.Link2,
+                Picture2Url = GetPictureUrl(quickViewSettings.Picture2Id),
+                Text2 = quickViewSettings.Text2,
+                Link2 = quickViewSettings.Link2,
 
-                Picture3Url = GetPictureUrl(nivoSliderSettings.Picture3Id),
-                Text3 = nivoSliderSettings.Text3,
-                Link3 = nivoSliderSettings.Link3,
+                Picture3Url = GetPictureUrl(quickViewSettings.Picture3Id),
+                Text3 = quickViewSettings.Text3,
+                Link3 = quickViewSettings.Link3,
 
-                Picture4Url = GetPictureUrl(nivoSliderSettings.Picture4Id),
-                Text4 = nivoSliderSettings.Text4,
-                Link4 = nivoSliderSettings.Link4,
+                Picture4Url = GetPictureUrl(quickViewSettings.Picture4Id),
+                Text4 = quickViewSettings.Text4,
+                Link4 = quickViewSettings.Link4,
 
-                Picture5Url = GetPictureUrl(nivoSliderSettings.Picture5Id),
-                Text5 = nivoSliderSettings.Text5,
-                Link5 = nivoSliderSettings.Link5
+                Picture5Url = GetPictureUrl(quickViewSettings.Picture5Id),
+                Text5 = quickViewSettings.Text5,
+                Link5 = quickViewSettings.Link5
             };
 
             if (string.IsNullOrEmpty(model.Picture1Url) && string.IsNullOrEmpty(model.Picture2Url) &&

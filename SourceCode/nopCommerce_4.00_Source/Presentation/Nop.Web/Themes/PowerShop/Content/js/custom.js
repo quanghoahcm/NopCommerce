@@ -4,6 +4,7 @@
 
 $(document).ready(function () {
 
+
     //Sticky Header
     $(window).scroll(function () {
         if ($(this).scrollTop() > 1 && $(window).innerWidth() > 1000) {

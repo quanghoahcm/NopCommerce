@@ -15,5 +15,9 @@
   "Tax.FixedOrByCountryStateZip",
   "Widgets.GoogleAnalytics",
   "Widgets.NivoSlider",
-  "NopStation.MobileWebApi"
+  "Widgets.QuickView",
+  "Nop.Plugin.Api",
+  "Payments.CashOnDelivery",
+  "NopStation.MobileWebApi",
+  "Widgets.News"
 ]

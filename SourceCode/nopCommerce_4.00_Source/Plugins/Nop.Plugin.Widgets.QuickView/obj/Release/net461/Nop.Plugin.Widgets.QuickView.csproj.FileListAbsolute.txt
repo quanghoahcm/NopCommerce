@@ -1,7 +1,3 @@
-D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.QuickView\obj\Release\net461\Nop.Plugin.Widgets.QuickView.csprojResolveAssemblyReference.cache
-D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.QuickView\obj\Release\net461\Nop.Plugin.Widgets.QuickView.csproj.CoreCompileInputs.cache
-D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.QuickView\obj\Release\net461\Nop.Plugin.Widgets.QuickView.AssemblyInfoInputs.cache
-D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.QuickView\obj\Release\net461\Nop.Plugin.Widgets.QuickView.AssemblyInfo.cs
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.QuickView\Content\quickview\license.txt
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.QuickView\Content\quickview\nivo-slider.css
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.QuickView\Content\quickview\README
@@ -36,6 +32,9 @@ D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.QuickView\logo.jpg
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.QuickView\Nop.Plugin.Widgets.QuickView.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.QuickView\Nop.Plugin.Widgets.QuickView.pdb
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.QuickView\obj\Release\net461\Nop.Plugin.Widgets.QuickView.csproj.CoreCompileInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.QuickView\obj\Release\net461\Nop.Plugin.Widgets.QuickView.AssemblyInfoInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.QuickView\obj\Release\net461\Nop.Plugin.Widgets.QuickView.AssemblyInfo.cs
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.QuickView\obj\Release\net461\Nop.Plugin.Widgets.QuickView.csproj.CopyComplete
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.QuickView\obj\Release\net461\Nop.Plugin.Widgets.QuickView.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.QuickView\obj\Release\net461\Nop.Plugin.Widgets.QuickView.pdb

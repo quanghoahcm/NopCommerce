@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Widgets News",
+  "SystemName": "Widgets.News",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.00" ],
+  "Author": "BroBlock team",
+  "DisplayOrder": 1,
+  "FileName": "NopBrasil.Plugin.Widgets.News.dll",
+  "Description": "This plugin new on your website"
+}

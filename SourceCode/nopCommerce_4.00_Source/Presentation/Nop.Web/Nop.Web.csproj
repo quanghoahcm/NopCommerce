@@ -45,6 +45,7 @@
 
     <!-- We copy the \Logs directory -->
     <Content Include="Logs\**" CopyToPublishDirectory="PreserveNewest" />
+    <Content Remove="Plugins\%2a%2a" />
     <None Remove="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Remove="Properties\PublishProfiles\FolderProfile.pubxml" />
 
@@ -54,6 +55,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Plugins\Widgets.QuickView\Content\nivoslider\sample-images\" />
+    <Folder Include="Plugins\Widgets.QuickView\Content\nivoslider\themes\bar\" />
+    <Folder Include="Plugins\Widgets.QuickView\Content\nivoslider\themes\custom\" />
+    <Folder Include="Plugins\Widgets.QuickView\Content\nivoslider\themes\dark\" />
+    <Folder Include="Plugins\Widgets.QuickView\Content\nivoslider\themes\default\" />
+    <Folder Include="Plugins\Widgets.QuickView\Content\nivoslider\themes\light\" />
     <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Themes\PowerShop\Views\Home\Components\HomepageBestSellers\" />
     <Folder Include="Themes\PowerShop\Views\Home\Components\HomepageCategories\" />

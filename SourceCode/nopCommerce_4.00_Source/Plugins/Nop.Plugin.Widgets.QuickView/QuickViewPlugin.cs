@@ -32,7 +32,7 @@ namespace Nop.Plugin.Widgets.QuickView
         /// <returns>Widget zones</returns>
         public IList<string> GetWidgetZones()
         {
-            return new List<string> { "home_page_top" };
+            return new List<string> { "productbox_addinfo_middle" };
         }
 
         /// <summary>

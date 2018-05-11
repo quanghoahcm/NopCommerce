@@ -1,0 +1,14 @@
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\plugin.json
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Views\Configure.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Views\PublicInfo.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Views\_ViewImports.cshtml
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\logo.jpg
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Nop.Plugin.Widgets.HomePageNewProducts.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProductsPlugin\Nop.Plugin.Widgets.HomePageNewProducts.pdb
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.csprojResolveAssemblyReference.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.csproj.CoreCompileInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.AssemblyInfoInputs.cache
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.AssemblyInfo.cs
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.csproj.CopyComplete
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.pdb

@@ -14,6 +14,26 @@
   </PropertyGroup>
   
   <ItemGroup>
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-grid.css" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-grid.css.map" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-grid.min.css" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-grid.min.css.map" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-reboot.css" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-reboot.css.map" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-reboot.min.css" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-reboot.min.css.map" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap.css" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap.css.map" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap.min.css" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap.min.css.map" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.bundle.js" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.bundle.js.map" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.bundle.min.js" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.bundle.min.js.map" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.js" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.js.map" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.min.js" />
+    <None Remove="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.min.js.map" />
     <None Remove="Content\quickview\license.txt" />
     <None Remove="Content\quickview\nivo-slider.css" />
     <None Remove="Content\quickview\README" />
@@ -41,6 +61,10 @@
     <None Remove="Content\quickview\themes\light\loading.gif" />
     <None Remove="logo.jpg" />
     <None Remove="plugin.json" />
+    <None Remove="Scripts\bootstrap.min.js" />
+    <None Remove="Scripts\jquery-1.10.2.intellisense.js" />
+    <None Remove="Scripts\jquery-1.10.2.js" />
+    <None Remove="Scripts\jquery-1.10.2.min.js" />
     <None Remove="Scripts\jquery.nivo.slider.js" />
     <None Remove="Views\Configure.cshtml" />
     <None Remove="Views\PublicInfo.cshtml" />
@@ -59,6 +83,66 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-grid.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-grid.css.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-grid.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-grid.min.css.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-reboot.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-reboot.css.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-reboot.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap-reboot.min.css.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap.css.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\css\bootstrap.min.css.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.bundle.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.bundle.js.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.bundle.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.bundle.min.js.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.js.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\quickview\bootstrap-4.1.1-dist\js\bootstrap.min.js.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
     <Content Include="Content\quickview\license.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -139,6 +223,18 @@
     </Content>
     <Content Include="plugin.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\bootstrap.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\jquery-1.10.2.intellisense.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\jquery-1.10.2.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\jquery-1.10.2.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="Scripts\jquery.nivo.slider.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
