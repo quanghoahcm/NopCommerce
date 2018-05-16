@@ -20,5 +20,9 @@
   "Payments.CashOnDelivery",
   "NopStation.MobileWebApi",
   "Widgets.HomePageNewProducts",
-  "Widgets.News"
+  "Widgets.News",
+  "ExternalAuth.Google",
+  "Misc.FacebookShop",
+  "Misc.MailChimp",
+  "PromotionFeed.Froogle"
 ]

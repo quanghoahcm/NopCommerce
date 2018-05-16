@@ -1,6 +1,6 @@
 {
   "Group": "Widgets",
-  "FriendlyName": "Widgets News",
+  "FriendlyName": "Widgets slick slider Top News",
   "SystemName": "Widgets.News",
   "Version": "1.0",
   "SupportedVersions": [
@@ -9,7 +9,7 @@
   "Author": "BroBlock team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Widgets.News.dll",
-  "Description": "This plugin news on your website",
+  "Description": "This plugin show top list news on your website by slider slick",
   "LimitedToStores": [],
   "LimitedToCustomerRoles": []
 }

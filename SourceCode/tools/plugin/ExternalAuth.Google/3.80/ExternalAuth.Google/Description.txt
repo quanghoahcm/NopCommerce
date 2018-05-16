@@ -1,0 +1,8 @@
+﻿Group: nop4you
+FriendlyName: Google authentication
+SystemName: ExternalAuth.Google
+Version: 1.0.0
+SupportedVersions: 3.80
+Author: Web studio lab S.r.l. (Leonardo Cavone) / changed by nop4you.com
+DisplayOrder: 1
+FileName: Nop.Plugin.ExternalAuth.Google.dll
