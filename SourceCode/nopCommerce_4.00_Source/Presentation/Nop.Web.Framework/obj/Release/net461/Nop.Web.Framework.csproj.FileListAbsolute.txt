@@ -286,7 +286,6 @@ D:\LEARNING\NET CORE\NopEX\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presen
 D:\LEARNING\NET CORE\NopEX\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\obj\Release\net461\Nop.Web.Framework.AssemblyInfo.cs
 D:\LEARNING\NET CORE\NopEX\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\obj\Release\net461\Nop.Web.Framework.dll
 D:\LEARNING\NET CORE\NopEX\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\obj\Release\net461\Nop.Web.Framework.pdb
-D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\Microsoft.WindowsAzure.Storage.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\Nop.Web.Framework.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\Nop.Web.Framework.pdb
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\Autofac.dll
@@ -466,6 +465,7 @@ D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\System.Text.Encoding.CodePages.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\System.Text.Encodings.Web.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\System.Threading.Tasks.Extensions.dll
+D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\Microsoft.WindowsAzure.Storage.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\Microsoft.Win32.Primitives.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\netstandard.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Presentation\Nop.Web.Framework\bin\Release\net461\System.AppContext.dll

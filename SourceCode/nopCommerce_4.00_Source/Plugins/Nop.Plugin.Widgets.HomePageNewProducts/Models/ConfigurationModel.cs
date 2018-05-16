@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Nop.Web.Framework.Mvc.ModelBinding;
 using Nop.Web.Framework.Mvc.Models;
 
-namespace Nop.Plugin.Widgets.HomePageNewProductsPlugin.Models
+namespace Nop.Plugin.Widgets.HomePageNewProducts.Models
 {
     public class ConfigurationModel : BaseNopModel
     {
@@ -18,7 +18,8 @@ namespace Nop.Plugin.Widgets.HomePageNewProductsPlugin.Models
         public IList<SelectListItem> AvailableZones { get; set; }
         public bool ZoneId_OverrideForStore { get; set; }
 
-        //public int NumberOfPoructs { get; set; }
+        public int NumberOfProducts { get; set; }
+        public bool NumberOfProducts_OverrideForStore { get; set; }
 
     }
 }

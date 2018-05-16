@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "QuickView",
+  "SystemName": "Widgets.QuickView",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.00" ],
+  "Author": "BroBlocks Team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.QuickView.dll",
+  "Description": "This plugin allows you to quick view product"
+}

@@ -1,0 +1,112 @@
+﻿@model Nop.Plugin.Widgets.QuickView.Models.PublicInfoModel
+@{
+    Layout = "";
+    Html.AddCssFileParts("~/Plugins/Widgets.QuickView/Content/quickview/jquery.fancybox.min.css");
+    Html.AddCssFileParts("~/Plugins/Widgets.QuickView/Content/quickview/quick-view.css");
+
+    //Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/Widgets.QuickView/Scripts/jquery-3.2.1.min.js");
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/Widgets.QuickView/Scripts/jquery.fancybox.min.js");
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/Widgets.QuickView/Scripts/custom.js");
+
+
+
+
+    //Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/Widgets.QuickView/Scripts/bootstrap.min.js");
+    //Html.AddCssFileParts("~/Plugins/Widgets.QuickView/Content/quickview/bootstrap-4.1.1-dist/css/bootstrap.min.css");
+    //Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/Widgets.QuickView/Content/quickview/bootstrap-4.1.1-dist/js/bootstrap.js");
+    //Html.AddCssFileParts("~/Plugins/Widgets.QuickView/Content/quickview/bootstrap-4.1.1-dist/css/bootstrap.min.css");
+
+
+}
+
+<a id="test" href="javascript:;" class="btn btn-primary">Quick View</a>
+
+@*<div style="display: none;" id="hidden-content">
+    <h2>Hello!</h2>
+    <p>You are awesome!</p>
+</div>*@
+
+
+@*<div class="row text-center" id="productShow">
+        <a href="#" class="btn btn-lg btn-success" id="myBtn">Quick View</a>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>*@
+
+@*<div class="slider-wrapper theme-custom">
+        <div id="nivo-slider" class="nivoSlider">
+            @{
+                var dataSlide1 = new ViewDataDictionary(ViewData)
+                {
+                    {"pictureUrl", Model.Picture1Url},
+                    { "text", Model.Text1},
+                    { "link", Model.Link1}
+                };
+
+                @await Html.PartialAsync("~/Plugins/Widgets.QuickView/Views/_PublicInfo.SliderLine.cshtml", dataSlide1)
+            }
+
+            @{
+                var dataSlide2 = new ViewDataDictionary(ViewData)
+                {
+                    {"pictureUrl", Model.Picture2Url},
+                    { "text", Model.Text2},
+                    { "link", Model.Link2}
+                };
+
+                @await Html.PartialAsync("~/Plugins/Widgets.QuickView/Views/_PublicInfo.SliderLine.cshtml", dataSlide2)
+            }
+
+            @{
+                var dataSlide3 = new ViewDataDictionary(ViewData)
+                {
+                    {"pictureUrl", Model.Picture3Url},
+                    { "text", Model.Text3},
+                    { "link", Model.Link3},
+                    { "dataTransition", "slideInLeft"}
+                };
+
+                @await Html.PartialAsync("~/Plugins/Widgets.QuickView/Views/_PublicInfo.SliderLine.cshtml", dataSlide3)
+            }
+
+            @{
+                var dataSlide4 = new ViewDataDictionary(ViewData)
+                {
+                    {"pictureUrl", Model.Picture4Url},
+                    { "text", Model.Text4},
+                    { "link", Model.Link4}
+                };
+
+                @await Html.PartialAsync("~/Plugins/Widgets.QuickView/Views/_PublicInfo.SliderLine.cshtml", dataSlide4)
+            }
+
+            @{
+                var dataSlide5 = new ViewDataDictionary(ViewData)
+                {
+                    {"pictureUrl", Model.Picture5Url},
+                    { "text", Model.Text5},
+                    { "link", Model.Link5}
+                };
+
+                @await Html.PartialAsync("~/Plugins/Widgets.QuickView/Views/_PublicInfo.SliderLine.cshtml", dataSlide5)
+            }
+        </div>
+    </div>*@

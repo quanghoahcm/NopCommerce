@@ -19,5 +19,6 @@
   "Nop.Plugin.Api",
   "Payments.CashOnDelivery",
   "NopStation.MobileWebApi",
+  "Widgets.HomePageNewProducts",
   "Widgets.News"
 ]

@@ -1578,12 +1578,12 @@ header {
     }
 
 .account-icon {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     transition: 0.3s;
-    border-radius: 100%;
+    border-radius: 0;
     vertical-align: middle;
-    background: #de524e url(../images/icon-account.png) no-repeat center;
+    background: #cc8a97 url(../images/icon-account.png) no-repeat center;
 }
 
     .account-icon:hover {
@@ -1591,18 +1591,27 @@ header {
     }
 
 #topcartlink a .cart-icon {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     transition: 0.3s;
-    border-radius: 100%;
+    border-radius: 0;
     vertical-align: middle;
-    background: #de524e url('../images/shopping-bag.png') no-repeat center;
+    background: #444 url('../images/shopping-bag.png') no-repeat center;
 }
 
     #topcartlink a .cart-icon:hover {
         background: #da6e6b url('../images/shopping-bag.png') no-repeat center;
     }
-
+.header-list-links {
+    padding: 0 !important;
+    padding-left: 50px !important;
+}
+#topcartlink a .cart-qty {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 22px;
+}
 .header-lower {
     z-index: 0;
     position: relative;
@@ -2442,13 +2451,19 @@ header {
 }
 
 .item-box .product-title {
-    color: #de524e;
-    font-size: 17px;
+    color: #888;
+    text-transform:uppercase;
+    font-size: 18px;
     line-height: 1.2;
     margin: 0 0 10px;
     overflow: hidden;
+    margin: 0 0 5px;
+    height:40px;
     font-weight: normal;
 }
+    .item-box .product-title:hover {
+        color: #da6e6b;
+    }
 
     .item-box .product-title a {
         display: block;
@@ -2477,8 +2492,11 @@ header {
 
     .item-box .rating div {
         height: 14px;
+        /*background: #cc8a97 url('../images/rating2.png') no-repeat;*/
         background: url('../images/rating2.png') repeat-x;
     }
+
+
 
 .item-box .description {
     display: none;
@@ -2639,7 +2657,9 @@ header {
         position: relative;
     }
 
-
+.product-grid .item-box:hover, .manufacturer-grid .item-box:hover, .vendor-grid .item-box:hover {
+    box-shadow: 0 1px 8px 2px rgba(0,0,0,.12)
+}
 .home-page-category-grid .item-grid .item-box:hover .category-item h2 {
     margin-bottom: 70px;
 }
@@ -2662,11 +2682,11 @@ header {
 
 .product-grid,
 .product-list {
-    margin: 0 0 50px;
+    margin: 0 0 5px;
 }
 
 .home-page-product-grid {
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 .product-grid .title {
@@ -8084,7 +8104,7 @@ div a.nav-overlay {
     }
 
     .header-links li {
-        margin: 0 20px 0 0px;
+        margin: 0 0px 0 0px;
     }
 
     .header-links a,
@@ -8142,7 +8162,7 @@ div a.nav-overlay {
             padding: 0 15px;
             display: inline-block;
             vertical-align: middle;
-            border-left: 1px solid #ddd;
+            border-left: 0px solid #ddd;
         }
 
             .header-menu > ul > li:first-child {
@@ -8152,7 +8172,8 @@ div a.nav-overlay {
             .header-menu > ul > li > a {
                 color: #fff;
                 display: block;
-                font-size: 15px;
+                font-size: 20px;
+                font-weight: 600;
                 cursor: pointer;
                 padding: 5px 10px;
                 line-height: 20px;

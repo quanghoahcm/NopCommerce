@@ -434,7 +434,6 @@ D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Libraries\Nop.Cor
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Libraries\Nop.Core\bin\Release\net461\System.Xml.XmlSerializer.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Libraries\Nop.Core\bin\Release\net461\System.Xml.XPath.dll
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Libraries\Nop.Core\bin\Release\net461\System.Xml.XPath.XDocument.dll
-D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Libraries\Nop.Core\obj\Release\net461\Nop.Core.csprojResolveAssemblyReference.cache
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Libraries\Nop.Core\obj\Release\net461\Nop.Core.csproj.CoreCompileInputs.cache
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Libraries\Nop.Core\obj\Release\net461\Nop.Core.AssemblyInfoInputs.cache
 D:\TMA\Projects\NopCommerce\SourceCode\nopCommerce_4.00_Source\Libraries\Nop.Core\obj\Release\net461\Nop.Core.AssemblyInfo.cs

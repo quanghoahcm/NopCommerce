@@ -1,25 +1,24 @@
-﻿using Nop.Core;
+﻿using Microsoft.AspNetCore.Routing;
+using Nop.Core;
 using Nop.Core.Plugins;
 using Nop.Services.Cms;
 using Nop.Services.Configuration;
 using Nop.Services.Localization;
 using System.Collections.Generic;
 
-namespace Nop.Plugin.Widgets.HomePageNewProductsPlugin
+namespace Nop.Plugin.Widgets.HomePageNewProducts
 {
     public class HomePageNewProductsPlugin : BasePlugin, IWidgetPlugin
     {
-
-        private readonly IWebHelper _webHelper;
         private readonly ISettingService _settingService;
-        private readonly HomePageNewProductsPluginSettings _homePageNewProductsPluginSettings;
+        private readonly HomePageNewProductsSettings _homePageNewProductsSettings;
+        private readonly IWebHelper _webHelper;  
 
-
-        public HomePageNewProductsPlugin(IWebHelper webHelper, ISettingService settingService, HomePageNewProductsPluginSettings homePageNewProductsPluginSettings)
+        public HomePageNewProductsPlugin(IWebHelper webHelper, ISettingService settingService, HomePageNewProductsSettings homePageNewProductsSettings)
         {
-            this._webHelper = webHelper;
             this._settingService = settingService;
-            this._homePageNewProductsPluginSettings = homePageNewProductsPluginSettings;
+            this._homePageNewProductsSettings = homePageNewProductsSettings;
+            this._webHelper = webHelper;
         }
 
 
@@ -29,17 +28,30 @@ namespace Nop.Plugin.Widgets.HomePageNewProductsPlugin
         /// <returns>Widget zones</returns>
         public IList<string> GetWidgetZones()
         {
-            return !string.IsNullOrWhiteSpace(_homePageNewProductsPluginSettings.WidgetZone)
-                ? new List<string>() { _homePageNewProductsPluginSettings.WidgetZone }
-                : new List<string>() { "home_page_top" };
-        }
+            return !string.IsNullOrWhiteSpace(_homePageNewProductsSettings.WidgetZone)
+                ? new List<string>() { _homePageNewProductsSettings.WidgetZone }
+                : new List<string>() { "home_page_bottom" };
+         }
 
 
+        /// <summary>
+        /// Gets a configuration page URL
+        /// </summary>
         public override string GetConfigurationPageUrl()
         {
             return _webHelper.GetStoreLocation() + "Admin/WidgetsHomePageNewProducts/Configure";
         }
-      
+        public void GetDisplayWidgetRoute(string widgetZone, out string actionName, out string controllerName, out RouteValueDictionary routeValues)
+        {
+            actionName = "PublicInfo";
+            controllerName = "WidgetsHomePageNewProducts";
+            routeValues = new RouteValueDictionary
+            {
+                {"Namespaces", "Nop.Plugin.Widgets.HomePageNewProducts.Controllers"},
+                {"area", null},
+                {"widgetZone", widgetZone}
+            };
+        }
         /// <summary>
         /// Gets a view component for displaying plugin in public store
         /// </summary>
@@ -53,28 +65,29 @@ namespace Nop.Plugin.Widgets.HomePageNewProductsPlugin
 
         public override void Install()
         {
-            var settings = new HomePageNewProductsPluginSettings()
+            var settings = new HomePageNewProductsSettings()
             {
-                NumberOfProductsToShow = 3
+                NumberOfProductsToShow = 3,
+                WidgetZone = "home_page_bottom"
             };
             _settingService.SaveSetting(settings);
 
-            this.AddOrUpdatePluginLocaleResource("Plugins.Widgets.HomePageNewProductsPlugin.NumberOfProductsToShow", "NumberOfProducts");
-            this.AddOrUpdatePluginLocaleResource("Plugins.Widgets.HomePageNewProductsPlugin.NumberOfProductsToShow.Hint", "Enter number of products");
-            this.AddOrUpdatePluginLocaleResource("Plugins.Widgets.HomePageNewProductsPlugin.WidgetZone", "WidgetZone");
-            this.AddOrUpdatePluginLocaleResource("Plugins.Widgets.HomePageNewProductsPlugin.WidgetZone.Hints", "Chose Widget zone");
+            this.AddOrUpdatePluginLocaleResource("Plugins.Widgets.HomePageNewProducts.NumberOfProductsToShow", "NumberOfProducts");
+            this.AddOrUpdatePluginLocaleResource("Plugins.Widgets.HomePageNewProducts.NumberOfProductsToShow.Hint", "Enter number of products");
+            this.AddOrUpdatePluginLocaleResource("Plugins.Widgets.HomePageNewProducts.WidgetZone", "WidgetZone");
+            this.AddOrUpdatePluginLocaleResource("Plugins.Widgets.HomePageNewProducts.WidgetZone.Hints", "Chose Widget zone");
 
             base.Install();
         }
 
         public override void Uninstall()
         {
-            _settingService.DeleteSetting<HomePageNewProductsPluginSettings>();
+            _settingService.DeleteSetting<HomePageNewProductsSettings>();
 
-            this.DeletePluginLocaleResource("Plugins.Widgets.HomePageNewProductsPlugin.NumberOfProductsToShow");
-            this.DeletePluginLocaleResource("Plugins.Widgets.HomePageNewProductsPlugin.NumberOfProductsToShow.Hint");
-            this.DeletePluginLocaleResource("Plugins.Widgets.HomePageNewProductsPlugin.WidgetZone");
-            this.DeletePluginLocaleResource("Plugins.Widgets.HomePageNewProductsPlugin.WidgetZone.Hint");
+            this.DeletePluginLocaleResource("Plugins.Widgets.HomePageNewProducts.NumberOfProductsToShow");
+            this.DeletePluginLocaleResource("Plugins.Widgets.HomePageNewProducts.NumberOfProductsToShow.Hint");
+            this.DeletePluginLocaleResource("Plugins.Widgets.HomePageNewProducts.WidgetZone");
+            this.DeletePluginLocaleResource("Plugins.Widgets.HomePageNewProducts.WidgetZone.Hint");
 
             base.Uninstall();
         }
