@@ -6781,6 +6781,8 @@ pre {
     padding: 15px 15px;
     position: relative;
     background: #de524e;
+    font-size:18px;
+    font-weight:bold;
 }
 
 .sidenav .closebtn {
@@ -6825,6 +6827,7 @@ div a.nav-overlay {
     width: 300px;
     padding: 10px 10px;
     box-sizing: border-box;
+    font-size:18px;
 }
 
     .sidenav .nav-content > ul > li {
